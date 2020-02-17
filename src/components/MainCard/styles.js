@@ -2,12 +2,13 @@ import styled from 'styled-components'
 
 const CardWrapper = styled.div`
     width: 100%;
+    margin-top: 50px;
     height: 620px;
+    width: 875px;
     background-attachment: fixed;
     background-image: url('http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/hero.jpg');
     background-size: cover;
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    margin-top: 0;
     margin-bottom: 50px;
     border-radius: 20px;
     box-shadow: 0px 6px 15px 0px rgba(0,0,0,.2);
